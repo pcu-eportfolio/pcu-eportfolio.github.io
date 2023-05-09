@@ -1,0 +1,185 @@
+body {
+    background-color: #060932;
+}
+
+.intro {
+    position: absolute;
+    margin: 4%;
+    margin-left: 13%;
+}
+
+.intro img {
+    position: absolute;
+    width: 35vw;
+
+    /* Protect the image  */
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.content {
+    text-align: center;
+    font-size: 1vw;
+    color: #1877F2;
+    font-family: arial;
+    width: 27.5%;
+    margin-left: 53%;
+    padding: 1%;
+    margin-top: 6%;
+}
+
+.content input[type=text], .content input[type=password] {
+    background-color: #13219F;
+    color: white;
+    margin-bottom: 6%;
+    padding: 4%;
+    font-size: 1.2vw;
+    width: 91%;
+    border-style: none;
+    border-radius: 0.5vw;
+    box-shadow: 0vw 0vw 1vw -0.2vw #555;
+    transition: 0.2s;
+}
+
+.content input[type=text]:focus, .content input[type=password]:focus {
+    outline: none;
+    background-color: white;
+    color: black;
+}
+
+.content a {
+    text-decoration: none;
+    color: #1877F2;
+}
+
+.content p {
+    text-align: left;
+    color: whitesmoke;
+    padding-bottom: 2%;
+    font-size: 1.5vw;
+}
+
+.content .footer {
+    font-family: arial;
+    font-size: 1vw;
+    text-align: center;
+    padding-top: 5%;
+    color: whitesmoke;
+}
+
+.content img {
+    width: 9%;
+    margin: 2%;
+}
+
+.content .newacc {
+    color: whitesmoke;
+    font-size: 1vw;
+    text-align: center;
+}
+
+.content .newacc a {
+    font-weight: bold;
+    color: white;
+}
+
+.content #ind {
+    margin-top: -1.5vw;
+    text-align: center;
+    font-size: 1vw;
+}
+
+#login, #signup {
+    color: #555;
+    font-family: calibri;
+    width: 100%;
+    padding: 3%;
+    border-style: none;
+    font-size: 1.5vw;
+    background-color: white;
+    border-radius: 0.7vw;
+    margin-bottom: 10%;
+    box-shadow: 0vw 0vw 1vw -0.2vw white;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: #060932;
+    }
+
+    .intro {
+        position: absolute;
+        margin-top: -39%;
+        margin-left: 25%;
+    }
+
+    .intro img {
+        width: 50vw;
+    }
+
+    .content {
+        text-align: center;
+        width: 80%;
+        margin-left: 10%;
+        padding: 1%;
+        margin-top: 50%;
+    }
+
+    .content input[type=text], .content input[type=password] {
+        font-size: 3.5vw;
+        margin-bottom: 6%;
+        padding: 4%;
+        width: 91%;
+        border-radius: 2vw;
+        box-shadow: 0vw 0vw 2.2vw -0.2vw #555;
+    }
+
+    .content a {
+        font-size: 3.5vw;
+    }
+
+    .content p {
+        font-size: 3.5vw;
+        text-align: center;
+        padding-bottom: 2%;
+        font-size: 3.5vw;
+    }
+
+    .content .footer {
+        font-size: 3.5vw;
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    .content img {
+        width: 9%;
+        margin: 2%;
+    }
+
+    .content .newacc {
+        font-size: 3.5vw;
+        text-align: center;
+    }
+
+    .content .newacc a {
+    }
+
+    .content #ind {
+        margin-top: -1.5vw;
+        text-align: center;
+        font-size: 3.5vw;
+    }
+
+    #login, #signup {
+        width: 100%;
+        padding: 3%;
+        font-size: 3.5vw;
+        border-radius: 2vw;
+        margin-bottom: 7%;
+        box-shadow: 0vw 0vw 2.2vw -0.2vw #555;
+    }
+}

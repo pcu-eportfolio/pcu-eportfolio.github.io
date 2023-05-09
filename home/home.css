@@ -1,0 +1,16 @@
+body {
+	padding: 5% 10% 0% 10%;
+}
+
+#menu {
+	position: absolute;
+	border-style: none;
+	background-color: rgba(0, 0, 0, 0);
+
+}
+
+#profile {
+	border-style: none;
+	background-color: rgba(0, 0, 0, 0);
+	padding-left: 85%;
+}
